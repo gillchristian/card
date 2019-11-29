@@ -1,26 +1,19 @@
 {
-  "name": "mxstbr",
-  "version": "1.0.1",
-  "description": "Max Stoiber (@mxstbr)'s business card",
-  "main": "index.js",
+  "name": "gillchristian",
+  "version": "1.0.0",
+  "description": "Christian Gill (@gillchristian)'s business card",
   "bin": {
-    "mxstbr": "./bin/card.js"
+    "gillchristian": "./bin/gillchristian"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxstbr/businesscard.git"
+    "url": "https://github.com/gillchristian/card.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
-  "keywords": [],
-  "author": "Max Stoiber",
+  "keywords": ["business card", "npx", "cli", "personal", "contact"],
+  "author": "Christian Gill",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1"
-  },
-  "devDependencies": {
-    "standard": "^12.0.1"
   }
 }
